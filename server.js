@@ -121,4 +121,4 @@ client.on("message", async message => {
   
 });
 
-client.login(process.ENV.TOKEN);
+client.login(process.env.TOKEN);
